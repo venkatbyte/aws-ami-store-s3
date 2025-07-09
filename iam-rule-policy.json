@@ -1,0 +1,56 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "AMICreationPermissions",
+            "Effect": "Allow",
+            "Action": [
+                "ec2:CreateImage",
+                "ec2:CreateSnapshot",
+                "ec2:CreateTags",
+                "ec2:DescribeImages",
+                "ec2:DescribeInstances",
+                "ec2:DescribeSnapshots",
+                "ec2:DescribeVolumes",
+                "ec2:ModifyImageAttribute",
+                "ec2:ModifySnapshotAttribute"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Sid": "EBSSnapshot",
+            "Effect": "Allow",
+            "Action": [
+                "ebs:ListSnapshotBlocks",
+                "ebs:GetSnapshotBlock",
+                "ebs:ListChangedBlocks"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Sid": "S3UploadPermissions",
+            "Effect": "Allow",
+            "Action": [
+                "s3:PutObject",
+                "s3:PutObjectAcl",
+                "s3:GetObject",
+                "s3:ListBucket",
+                "s3:DeleteObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::venkatbyte/*",
+                "arn:aws:s3:::venkatbyte"
+            ]
+        },
+        {
+            "Sid": "EC2ExportPermissions",
+            "Effect": "Allow",
+            "Action": [
+                "ec2:ExportImage",
+                "ec2:DescribeExportImageTasks",
+                "ec2:DescribeImages"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
