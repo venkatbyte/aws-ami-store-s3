@@ -48,7 +48,9 @@
             "Action": [
                 "ec2:ExportImage",
                 "ec2:DescribeExportImageTasks",
-                "ec2:DescribeImages"
+                "ec2:DescribeImages",
+                "ec2:CreateStoreImageTask",
+                "ec2:DescribeTags"
             ],
             "Resource": "*"
         }
