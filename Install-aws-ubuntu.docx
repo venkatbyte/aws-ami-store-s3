@@ -13,7 +13,7 @@ sudo apt install -y unzip curl
 3. Download the AWS CLI Installer
 Use curl to download the AWS CLI v2 installer:
 
-curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 
 4. Extract the Installer
 Unzip the downloaded file:
