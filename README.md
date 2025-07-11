@@ -1,4 +1,6 @@
 # Automate Daily Backups of AWS EC2 Instance to S3 Bucket using shell scripting
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/7d459353-ea2a-4656-8d26-5159e19897e9" />
+
 
 # Prerequisites to implement this usecase
 
