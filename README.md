@@ -8,9 +8,10 @@
   4. Basic knowledge of shell scripting and cron jobs
 
 # Steps to implement
-  1. Create IAM role for EC2
-  2. Create EC2 and attach IAM role
-  3. Install AWS CLI
-  4. Test the IAM role access from EC2
-  5. Create the scritp to create AMI image and Upload
-  6. Run the Script and verify AMI is uploaded to S3
+  1. Log in AWS Console
+  2. Create IAM role for EC2
+  3. Create EC2 and attach IAM role
+  4. Install AWS CLI
+  5. Test the IAM role access from EC2
+  6. Create the scritp to create AMI image and Upload
+  7. Run the Script and verify AMI is uploaded to S3
